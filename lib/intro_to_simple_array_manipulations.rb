@@ -29,5 +29,5 @@ def using_flatten(array)
  array.flatten
 end
 def using_delete_at(array,element)
-array.delete(element===Integer)
+array.delete(element)
 end

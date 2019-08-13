@@ -29,5 +29,6 @@ def using_flatten(array)
  array.flatten
 end
 def using_delete_at(array,Integer)
-array.(Integer)
+array.delete_if(Integer)
+arr.delete_if { |a| a < 4 } #=> [4, 5, 6]
 end

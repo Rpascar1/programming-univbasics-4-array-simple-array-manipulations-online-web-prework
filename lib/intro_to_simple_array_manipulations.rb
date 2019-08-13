@@ -29,5 +29,5 @@ def using_flatten(array)
  array.flatten
 end
 def using_delete_at(array,Integer)
-array.pop(Integer)
+array.(Integer)
 end
